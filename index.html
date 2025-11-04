@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Cafeteria Aconchego — Seja bem-vindo!</title>
+<link href="styles.css" rel="stylesheet"/>
+</head>
+<body id="home">
+<header class="topo">
+<div class="navegacao container">
+<a class="logo"><img src="images/logo5.png"/></a>
+<nav class="menu"><a href="#home">Home</a><a href="#cardapio">Cardápio</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav>
+</div>
+</header>
+<main><button aria-label="Voltar ao topo" class="voltar-topo" id="voltar-topo">↑</button>
+<section class="banner" id="banner"><div class="banner__conteudo container"><h1>Aconchego no primeiro gole</h1><p>Um espaço pensado para você pausar o dia e aproveitar um café especial.</p><a class="botao" href="#cardapio">Ver cardápio</a></div></section>
+<section class="sessao container" id="cardapio">
+<div class="busca-cardapio">
+<label class="sr-only" for="busca">Buscar itens do cardápio</label>
+<input class="search" id="busca" placeholder="Buscar no cardápio..." type="search"/>
+</div>
+<h2>Cardápio</h2><p class="subtitulo">Seis opções queridinhas da casa — feitas na hora.</p>
+<div class="grid-produtos"><article class="produto" data-name="espresso"><img alt="Espresso da Cafeteria Aconchego" loading="lazy" src="images/espresso.png"/><div class="produto__info"><h3>Espresso</h3><p>Café encorpado, aroma intenso e sabor marcante, servido na medida certa.</p><span class="preco">R$ 6,50</span></div></article>
+<article class="produto" data-name="cappuccino"><img alt="Cappuccino da Cafeteria Aconchego" loading="lazy" src="images/cappuccino.png"/><div class="produto__info"><h3>Cappuccino</h3><p>Combinação perfeita de café espresso, leite vaporizado e espuma cremosa.</p><span class="preco">R$ 12,90</span></div></article>
+<article class="produto" data-name="latte"><img alt="Latte Cremoso da Cafeteria Aconchego" loading="lazy" src="images/latte.png"/><div class="produto__info"><h3>Latte</h3><p>Café suave com leite vaporizado e textura aveludada, ideal para qualquer hora.</p><span class="preco">R$ 11,90</span></div></article>
+<article class="produto" data-name="mocha"><img alt="Mocha Saboroso da Cafeteria Aconchego" loading="lazy" src="images/mocha.png"/><div class="produto__info"><h3>Mocha</h3><p>Mistura deliciosa de café espresso, chocolate e leite vaporizado com espuma leve.</p><span class="preco">R$ 13,90</span></div></article>
+<article class="produto" data-name="pão de queijo"><img alt="Pão de Queijo quentinho da Cafeteria Aconchego" loading="lazy" src="images/paodequeijo.png"/><div class="produto__info"><h3>Pão de Queijo</h3><p>Clássico mineiro: casquinha crocante por fora e maciez irresistível por dentro.</p><span class="preco">R$ 7,90</span></div></article>
+<article class="produto" data-name="brownie"><img alt="Brownie de chocolate da Cafeteria Aconchego" loading="lazy" src="images/brownie.png"/><div class="produto__info"><h3>Brownie</h3><p>Clássico mineiro: casquinha crocante por fora e maciez irresistível por dentro.</p><span class="preco">R$ 9,90</span></div></article>
+</div>
+</section>
+<section class="sessao sessao--clara" id="sobre"><div class="container"><h2>Sobre a Cafeteria</h2><p>A <b>Cafeteria Aconchego</b> nasceu do desejo de criar um lugar onde cada pessoa se sinta em casa.
+Aqui, o cheirinho de pão quentinho e o café passado na hora se misturam com boas conversas e sorrisos sinceros.
+
+Fazemos tudo com carinho e ingredientes de qualidade, porque acreditamos que cada detalhe faz diferença.
+Mais do que uma padaria, somos um cantinho de pausa, sabor e aconchego no seu dia.</p></div></section>
+</main>
+<footer class="rodape" id="contato"><div class="container rodape__conteudo"><div><h2>Contato</h2><p><strong>Endereço:</strong> Rua das Flores, 123</p><p><strong>Horário:</strong> Seg–Sex 6h–23h</p><p><strong>Telefone:</strong> (31) 9 9999-9999</p></div><nav class="sociais"><a href="#"><span class="sr-only">Instagram</span>
+<svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+<path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2.2A2.8 2.8 0 1 0 14.8 12 2.8 2.8 0 0 0 12 9.2zM18 6.5a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"></path>
+</svg>
+</a><a href="#"><span class="sr-only">Facebook</span>
+<svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+<path d="M22 12a10 10 0 1 0-11.6 9.9v-7h-2.7V12h2.7V9.5c0-2.7 1.6-4.2 4-4.2 1.2 0 2.5.2 2.5.2v2.7h-1.4c-1.4 0-1.8.9-1.8 1.8V12h3l-.5 2.9h-2.5v7A10 10 0 0 0 22 12z"></path>
+</svg>
+</a><a href="#"><span class="sr-only">Whatsapp</span>
+<svg aria-hidden="true" class="icon" viewbox="0 0 24 24">
+<path d="M20.5 3.5A11.5 11.5 0 0 0 2.4 17l-1 3.6 3.7-1A11.5 11.5 0 1 0 20.5 3.5zM12 20.5a8.5 8.5 0 1 1 0-17 8.5 8.5 0 0 1 0 17zm4.9-6.4c-.3-.1-1.7-.9-2-.9s-.4.1-.6.4-.7.9-.9 1.1-.3.2-.6.1a7.5 7.5 0 0 1-2.3-1.4 8.6 8.6 0 0 1-1.6-2c-.2-.3 0-.5.1-.7l.5-.6c.2-.2.3-.4.4-.6a.6.6 0 0 0 0-.6c0-.1-.6-1.5-.8-2s-.4-.4-.6-.4h-.5a1 1 0 0 0-.8.4 3.3 3.3 0 0 0-1 2.5 5.8 5.8 0 0 0 1.3 3.1c1.5 2 3.5 3.6 5.8 4.4.6.2 1.1.3 1.6.5a3.9 3.9 0 0 0 1.8.1 3 3 0 0 0 2-1.4 2.5 2.5 0 0 0 .2-1.4c0-.2-.2-.3-.5-.4z"></path>
+</svg>
+</a></nav></div><p class="creditos">© 2025 Cafeteria Aconchego</p></footer>
+<script src="app.js"></script>
+</body></html>
